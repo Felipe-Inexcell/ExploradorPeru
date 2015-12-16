@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:paddingTop="48dp"
+        android:paddingLeft="48dp"
+        android:paddingRight="48dp"
+        android:background="@drawable/fondo1"
+        android:paddingBottom="48dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rut Incorrecto"
+            android:id="@+id/textView36"
+            android:textStyle="bold"
+            android:textSize="24dp" />
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="OK"
+            android:id="@+id/button7"
+            android:background="@drawable/custom_button_circle"
+            android:textColor="#ffffff"
+            android:elevation="0dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
